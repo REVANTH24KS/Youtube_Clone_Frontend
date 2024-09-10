@@ -1,0 +1,31 @@
+.upload-video-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+.video-form{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.video-box{
+    text-align: center;
+    padding: 3%;
+    border: thin solid black;
+}
+.video-input{
+  display: contents;
+}
+.video-label{
+    cursor: pointer;
+}
+.imageName{
+    color:green
+}

@@ -1,0 +1,12 @@
+.search-container{
+    display: flex;
+    gap: 10px;
+    max-width: 100%;
+    height: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.search-no-data{
+    display: flex;
+    justify-content: center;
+}

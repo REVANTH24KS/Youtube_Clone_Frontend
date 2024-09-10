@@ -1,0 +1,76 @@
+.video-card {
+  display: flex;
+  background-color: #181818;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  width: 350px;
+  cursor: pointer;
+}
+
+.video-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-content {
+  display: flex;
+}
+
+.video-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-element {
+  width: 100%;
+  height: auto;
+}
+
+.content-container {
+  flex: 1;
+  padding: 16px;
+}
+
+  .video-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .video-card .MuiCardHeader-root {
+    padding: 16px;
+  }
+  
+  .video-card .MuiCardHeader-avatar {
+    margin-right: 8px;
+  }
+  
+  .video-card .MuiCardHeader-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .video-card .MuiCardHeader-subheader {
+    font-size: 14px;
+    color: #909090;
+  }
+  
+  .video-card .MuiCardHeader-action {
+    margin-left: auto;
+  }
+  
+  .video-card .MuiIconButton-root {
+    color: #909090;
+  }
+  
+  .video-card .MuiIconButton-root:hover {
+    color: #ffffff;
+  }
+  @media only screen and (min-width: 768px) {
+    .video-card {
+      width: 700px;
+    }
+  }

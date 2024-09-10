@@ -1,0 +1,31 @@
+.card-conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    cursor: pointer;
+}
+.card {
+    margin-bottom: 2%;
+}
+  
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.avatarimg {
+    margin-top: -14px;
+}
+  
+.channelname {
+    padding: 10px;
+}
+.view {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  

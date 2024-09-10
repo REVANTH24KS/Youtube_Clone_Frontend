@@ -1,0 +1,36 @@
+.notification-box {
+  position: fixed;
+  top: 60px;
+  right: 10px;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  transform: translateY(-100%);
+}
+.notification-box.open {
+  transform: translateY(0);
+}
+.notification-content-box{
+  color: rgb(90, 90, 90);
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+.close{
+  display: none;
+}  
+.open{
+  display: block;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}

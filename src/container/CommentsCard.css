@@ -1,0 +1,21 @@
+.comment-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .comment-card .comment-details {
+    margin-left: 10px;
+  }
+  
+  .comment-card .comment-details h6 {
+    margin-bottom: 5px;
+  }
+  
+  .comment-card .comment-details p {
+    margin: 0;
+    color: #555;
+    font-size: 14px;
+  }
+  

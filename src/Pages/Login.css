@@ -1,0 +1,40 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    background-image: url("../../public/assets/login.jpeg");
+    background-size: cover;
+}
+.login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 35%;
+    min-height:40%;
+    /* background-color: white; */
+    background: url("../../public/assets/loginbackground.jpeg");
+    background-size:cover;
+    padding:10px 0px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px;
+    animation:login-box;
+    animation-duration: 4s;
+}
+@keyframes login-box{
+    from{
+        transform: translateY(110%);
+    }
+}
+.login-form{
+    margin:0px 20px;
+    display: flex;
+    flex-direction: column;
+    width:80%;
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+}
